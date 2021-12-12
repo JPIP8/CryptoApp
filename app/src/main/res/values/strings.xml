@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Cryptoins</string>
+    <string name="Open">k</string>
+    <string name="Close">q</string>
+
+    <string-array name="coin_name">
+        <item>Ethereum</item>
+        <item>Bitcoin</item>
+        <item>Binance Coin</item>
+        <item>Tether</item>
+        <item>Solana</item>
+        <item>Cardano</item>
+        <item>USD Coin</item>
+        <item>Eth</item>
+        <item>Eth</item>
+        <item>Eth</item>
+    </string-array>
+
+    <string-array name="coin_price">
+        <item>$4348</item>
+        <item>$50920</item>
+        <item>$588</item>
+        <item>$1</item>
+        <item>$195</item>
+        <item>$1</item>
+        <item>$1</item>
+        <item>$456</item>
+        <item>$456</item>
+        <item>$456</item>
+    </string-array>
+
+
+</resources>
