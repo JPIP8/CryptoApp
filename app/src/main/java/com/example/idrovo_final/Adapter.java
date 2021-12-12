@@ -93,6 +93,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
 
     @Override
     public int getItemCount() {
+        //return 10;
         return articles.size();
     }
 

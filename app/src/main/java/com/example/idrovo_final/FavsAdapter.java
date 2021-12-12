@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class RVadapter extends RecyclerView.Adapter<RVadapter.MyViewHolder> {
+public class FavsAdapter extends RecyclerView.Adapter<FavsAdapter.MyViewHolder> {
 
     // Initializing variables
     String data1[], data2[];
@@ -19,7 +19,7 @@ public class RVadapter extends RecyclerView.Adapter<RVadapter.MyViewHolder> {
 
     // Adding the constructor for my recycler view adapter class
     // We must pass the values from MarketActivity to RVadapter class
-    public RVadapter(Context ct, String s1[], String s2[], int img[]){
+    public FavsAdapter(Context ct, String s1[], String s2[], int img[]){
         context = ct;
         data1 = s1;
         data2 = s2;
@@ -45,8 +45,8 @@ public class RVadapter extends RecyclerView.Adapter<RVadapter.MyViewHolder> {
 
     @Override
     public int getItemCount() {
-        //return 10;
-        return images.length;
+        return 3;
+        //return images.length;
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder{

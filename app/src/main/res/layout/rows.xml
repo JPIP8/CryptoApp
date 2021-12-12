@@ -33,7 +33,7 @@
                 app:srcCompat="@drawable/btc_img" />
 
             <TextView
-                android:id="@+id/info_txt"
+                android:id="@+id/price_txt"
                 android:layout_width="67dp"
                 android:layout_height="29dp"
                 android:layout_marginTop="8dp"
@@ -44,7 +44,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/title_txt"
+                android:id="@+id/name_txt"
                 android:layout_width="113dp"
                 android:layout_height="27dp"
                 android:layout_marginStart="24dp"
@@ -55,15 +55,15 @@
                 app:layout_constraintStart_toEndOf="@+id/logo_img"
                 app:layout_constraintTop_toTopOf="parent" />
 
-<!--            <TextView-->
-<!--                android:id="@+id/id_txt"-->
-<!--                android:layout_width="72dp"-->
-<!--                android:layout_height="26dp"-->
-<!--                android:layout_marginStart="8dp"-->
-<!--                android:layout_marginTop="8dp"-->
-<!--                android:text="TextView"-->
-<!--                app:layout_constraintStart_toEndOf="@+id/title_txt"-->
-<!--                app:layout_constraintTop_toTopOf="parent" />-->
+            <TextView
+                android:id="@+id/id_txt"
+                android:layout_width="72dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="TextView"
+                app:layout_constraintStart_toEndOf="@+id/name_txt"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/nameZnumber"

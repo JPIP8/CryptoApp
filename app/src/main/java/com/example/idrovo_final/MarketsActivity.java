@@ -32,6 +32,8 @@ public class MarketsActivity extends AppCompatActivity {
     private NavigationView nv;
 
     public static MarketData data = new MarketData();
+    //public static MarketData data = new MarketData();
+
 
     // Volley request queue
     private RequestQueue queue;

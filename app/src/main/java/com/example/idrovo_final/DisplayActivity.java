@@ -17,8 +17,8 @@ public class DisplayActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.markets);
         MarketData m = MarketsActivity.getMarketInstance();
-        coinName = findViewById(R.id.title_txt);
-        coinPrice = findViewById(R.id.info_txt);
+        coinName = findViewById(R.id.name_txt);
+        coinPrice = findViewById(R.id.price_txt);
         //coinID = findViewById(R.id.id_txt);
 
         coinName.setText(m.getCoinName());
