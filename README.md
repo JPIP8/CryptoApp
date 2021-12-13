@@ -1,1 +1,6 @@
 # COP4655IdrovoFinal
+This is my final project for Mobile Apps class.
+
+My work is an Android native application, it runs in my personal mobile device, it runs in the emulator in my computer, and it runs in the personal mobile devices of my colleagues. The first step was creating the project design in which I did with the balsamic tool. That first step gave me the initial ideas in order to later on implement the design on the application. One other step was the proof of concept. This was the most difficult one in my opinion.
+
+My application consists in 4 pages and a navigation menu. Home, Markets, News, and favorites. The home page is the login page, this is where the user creates his account in order to access all the functionalities of the application. The user has the options of sign in with his personal email or with google authentication. The markets page is the one that provides real cryptos information to the user, so he can take decision regarding those topics. The news page is for informing the user of the things that are happening in the world, they are very useful and also from a good source. The final page is the favorites page. This page is where the user saves his favorites cryptocurrencies so he can access them later.
