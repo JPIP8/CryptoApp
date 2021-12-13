@@ -47,32 +47,6 @@ public class AdapterCrypto extends RecyclerView.Adapter<AdapterCrypto.MyViewHold
     public void onBindViewHolder(@NonNull MyViewHolder holders, int position) {
         final MyViewHolder holder = holders;
         ArticleCrypto model = articles.get(position);
-//        RequestOptions requestOptions = new RequestOptions();
-//        requestOptions.placeholder(utils.getRandomDrawbleColor());
-//        requestOptions.error(utils.getRandomDrawbleColor());
-//        requestOptions.diskCacheStrategy(DiskCacheStrategy.ALL);
-//        requestOptions.centerCrop();
-
-//        Glide.with(context)
-//                .load(model.getCurrent_price())
-//                .apply(requestOptions)
-//                .listener(new RequestListener<Drawable>(){
-//
-//                    @Override
-//                    public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Drawable> target, boolean isFirstResource) {
-//                        holder.progress.setVisibility(View.GONE);
-//                        return false;
-//                    }
-//
-//                    @Override
-//                    public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
-//                        holder.progress.setVisibility(View.GONE);
-//                        return false;
-//                    }
-//                })
-//                .transition(DrawableTransitionOptions.withCrossFade())
-//                .into(holder.imageView);
-
         holder.id.setText(model.getId());
         holder.symbol.setText(model.getSymbol());
         holder.name.setText(model.getName());

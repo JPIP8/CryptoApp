@@ -19,11 +19,9 @@ public class DisplayActivity extends AppCompatActivity {
         MarketData m = MarketsActivity.getMarketInstance();
         coinName = findViewById(R.id.name_txt);
         coinPrice = findViewById(R.id.price_txt);
-        //coinID = findViewById(R.id.id_txt);
 
         coinName.setText(m.getCoinName());
         coinPrice.setText("$ " + m.getCoinPrice());
-        //coinID.setText(m.getCoinID());
 
     }
 }

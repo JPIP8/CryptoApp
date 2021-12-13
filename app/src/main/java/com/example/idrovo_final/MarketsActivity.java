@@ -140,17 +140,10 @@ public class MarketsActivity extends AppCompatActivity {
         //JsonArrayRequest getRequest = new JsonArrayRequest(Request.Method.GET, url, null, new Response.Listener<JSONArray>() {
             @Override
             public void onResponse(JSONObject response) {
-            //public void onResponse(JSONArray response) {
                 System.out.println("Inside onResponse");
-
-
-                    //JSONObject resp = null;
 
                 try {
                     System.out.println("Inside getMarketInfo - try");
-
-                    //resp = response.getJSONObject("name");
-                    //System.out.println(resp);
                     data.setCoinName(response.getString("name"));
                     data.setCoinPrice(response.getString("current_price"));
                     data.setCoinID(response.getString("symbol"));

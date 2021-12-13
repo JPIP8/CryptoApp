@@ -39,7 +39,6 @@ public class NewsActivity extends AppCompatActivity {
 
     public void LoadJson(){
         apiNewsInterface apiInterface = apiNews.getapiNews().create(apiNewsInterface.class);
-        //String country = "us";
         String country = utils.getCountry();
 
         Call<NewsMod> call;
