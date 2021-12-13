@@ -44,7 +44,7 @@ public class MarketsActivity extends AppCompatActivity {
     // Creating two arrays that will carry the information of the crypto information
     String s1[], s2[];
     int images[] = {R.drawable.eth_img, R.drawable.btc_img, R.drawable.bnb_img, R.drawable.tether_img, R.drawable.solana_img,
-            R.drawable.cardano_img, R.drawable.usdc_img, R.drawable.eth_img, R.drawable.eth_img, R.drawable.eth_img};
+            R.drawable.cardano_img, R.drawable.usdc_img, R.drawable.rip_img, R.drawable.polk_img, R.drawable.eth_img};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

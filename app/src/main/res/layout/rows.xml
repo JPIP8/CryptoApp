@@ -39,7 +39,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:text="Info"
-                android:textSize="16dp"
+                android:textSize="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -57,10 +57,11 @@
 
             <TextView
                 android:id="@+id/id_txt"
-                android:layout_width="72dp"
+                android:layout_width="90dp"
                 android:layout_height="26dp"
                 android:layout_marginTop="2dp"
-                android:text="TextView"
+                android:text="Cryptocurrency"
+                android:textSize="12dp"
                 app:layout_constraintStart_toStartOf="@+id/name_txt"
                 app:layout_constraintTop_toBottomOf="@+id/name_txt" />
 

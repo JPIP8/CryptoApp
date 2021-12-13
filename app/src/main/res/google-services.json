@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "716209524592",
+    "project_id": "finalmobileapps1",
+    "storage_bucket": "finalmobileapps1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716209524592:android:683bf3b3989c906f2509b5",
+        "android_client_info": {
+          "package_name": "CO04655.Idrovo.Final_Project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716209524592-097ec4k7ks7thfpdgdtle49f0o3lc75r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTs9Yr7gDCHZnm2kStTEV9nKWyndoPeR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716209524592-097ec4k7ks7thfpdgdtle49f0o3lc75r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

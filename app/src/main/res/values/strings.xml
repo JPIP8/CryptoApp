@@ -11,21 +11,21 @@
         <item>Solana</item>
         <item>Cardano</item>
         <item>USD Coin</item>
-        <item>Eth</item>
-        <item>Eth</item>
+        <item>Ripple</item>
+        <item>Polkadot</item>
         <item>Eth</item>
     </string-array>
 
     <string-array name="coin_price">
-        <item>$4348</item>
-        <item>$50920</item>
-        <item>$588</item>
+        <item>$4135.84</item>
+        <item>$50057</item>
+        <item>$569.11</item>
         <item>$1</item>
-        <item>$195</item>
+        <item>$173.58</item>
+        <item>$1.35</item>
         <item>$1</item>
-        <item>$1</item>
-        <item>$456</item>
-        <item>$456</item>
+        <item>$0.839</item>
+        <item>$29.56</item>
         <item>$456</item>
     </string-array>
 
